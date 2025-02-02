@@ -1,0 +1,27 @@
+## Run and compile an animation
+
+To compile a amnim animation from the command line, there are two steps.
+1. Finding and opening the directory
+2. Telling Python which animation to run
+
+
+### To load the directory
+`cd "<directory path>`
+
+### To run the animation
+`manim -p <script.py> <scene name>`
+
+### Common flags
+-p: Plays the rendered video in a preview window.
+-q: Renders the video in low quality (faster rendering).
+-l: Renders the video in medium quality.
+-m: Renders the video in high quality (slower rendering).
+-w: Writes the rendered video to a file without previewing it.
+-o: Writes the rendered video to a file and opens it in the default video player.
+-s: Skips to the end and shows the final frame.
+
+## Creating animations
+General outline for a basic animation
+1. Create the scene
+2. Define any objects in the animation
+3. Define the animated sequence for the scene
